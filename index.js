@@ -12,9 +12,7 @@ var Infected  =  document.getElementsByName("infected");
 var Travel = document.getElementsByName("travel");
 var Diarrhea = document.getElementsByName("Diarrhea"); 
 
-
-
-if(Cold[0].checked && congestion[0].checked && Cough[0].checked && Throat[0].checked && Fever[0].checked
+    if(Cold[0].checked && congestion[0].checked && Cough[0].checked && Throat[0].checked && Fever[0].checked
     && Ache[0].checked && Fatigue[0].checked && Breathing[0].checked && Infected[0].checked
     && Travel[0].checked && Diarrhea[0].checked ){
         alert("You have a high risk of having been infected with COVID-19, please Dial the emergency NCDC line immediately");
@@ -38,4 +36,6 @@ if(Cold[0].checked && congestion[0].checked && Cough[0].checked && Throat[0].che
     else {
                 alert("you are at low risk of having been infected with COVID-19, please observe all the necessary precautions. STAY HOME STAY SAFE ");
     }
+
+
 }

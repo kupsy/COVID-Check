@@ -10,7 +10,7 @@
     
 <div class="flex-container">
     <div class="item-two">
-    <form action="" id="status-form">
+    <form action="" id="status-form" onsubmit="return validate()">
             
             <h3 id="main-heading"> Check COVID-19 Status</h1>
             <p id="secondary-heading" class="light-text"></p>
@@ -60,12 +60,12 @@
 
         <div id="symptoms-section">
             <input type="checkbox" name="Travel" id="chkbx">
-            <p class="light-text">Travel</p>
+            <p class="light-text">Did you travel to an infected country</p>
         </div>
 
         <div id="symptoms-section">
             <input type="checkbox" name="Infected" id="chkbx">
-            <p class="light-text">Contact with Infected person</p>
+            <p class="light-text">Did you have contact with Infected person</p>
         </div>
 
         <div id="symptoms-section">
