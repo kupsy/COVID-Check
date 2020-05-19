@@ -10,7 +10,7 @@
     
 <div class="flex-container">
     <div class="item-two">
-    <form action="" id="status-form" onsubmit="return validate()">
+    <form action="" id="status-form">
             
             <h3 id="main-heading"> Check COVID-19 Status</h1>
             <p id="secondary-heading" class="light-text"></p>
@@ -20,60 +20,60 @@
 
     </div>
             
-    <div>
+    <div id="chkbx" class="light-text">
             <div id="symptoms-section">
-                <input type="checkbox" name="Ache" id="chkbx">
-                <p class="light-text">Aches and Pains</p>
+                <input type="checkbox" name="Ache">
+                <p>Aches and Pains</p>
             </div>
 
             <div id="symptoms-section">
-                <input type="checkbox" name="Throat" id="chkbx">
-                <p class="light-text"> Sore Throat</p>
+                <input type="checkbox" name="Throat">
+                <p> Sore Throat</p>
             </div>
             
     
       
         <div id="symptoms-section">
-            <input type="checkbox" name="Congestion" id="chkbx">
-            <p class="light-text">Nascal Congestion</p>
+            <input type="checkbox" name="Congestion">
+            <p>Nascal Congestion</p>
         </div>
 
         <div id="symptoms-section">
-            <input type="checkbox" name="Diarrhea" id="chkbx">
-            <p class="light-text">Diarrhea</p>
+            <input type="checkbox" name="Diarrhea">
+            <p>Diarrhea</p>
         </div>
 
         <div id="symptoms-section">
-            <input type="checkbox" name="Cough" id="chkbx">
-            <p class="light-text">Cough</p>
+            <input type="checkbox" name="Cough">
+            <p>Cough</p>
         </div>
 
         <div id="symptoms-section">
-            <input type="checkbox" name="Fever" id="chkbx">
-            <p class="light-text">Fever</p>
+            <input type="checkbox" name="Fever">
+            <p>Fever</p>
         </div>
 
         <div id="symptoms-section">
-            <input type="checkbox" name="Breathing" id="chkbx">
-            <p class="light-text">Difficulty Breathing</p>
+            <input type="checkbox" name="Breathing">
+            <p>Difficulty Breathing</p>
         </div>
 
         <div id="symptoms-section">
-            <input type="checkbox" name="Travel" id="chkbx">
-            <p class="light-text">Did you travel to an infected country</p>
+            <input type="checkbox" name="Travel">
+            <p>Did you travel to an infected country</p>
         </div>
 
         <div id="symptoms-section">
-            <input type="checkbox" name="Infected" id="chkbx">
-            <p class="light-text">Did you have contact with Infected person</p>
+            <input type="checkbox" name="Infected">
+            <p>Did you have contact with Infected person</p>
         </div>
 
         <div id="symptoms-section">
-            <input type="checkbox" name="Fatigue" id="chkbx">
-            <p class="light-text">Fatigue</p>
+            <input type="checkbox" name="Fatigue">
+            <p>Fatigue</p>
         </div>
 
-        <button type="button" id="check-btn" onclick="validate();"> Submit </button>
+        <button id="check-btn" onclick="validate()"> Submit </button>
     </div>
 
     <div class="item-one">
